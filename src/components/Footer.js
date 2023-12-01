@@ -39,7 +39,7 @@ function Footer({ isStarted, handleReset, countKeyDown }) {
             : times < 25
             ? "bg-orange-500"
             : "bg-cyan-600"
-        } border-black border-2 text-3xl p-3 rounded-md font-mono text-center w-14`}
+        } border-black border-2 text-3xl p-1 rounded-md font-mono text-center w-14`}
       >
         {times}
       </div>

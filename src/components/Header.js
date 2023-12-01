@@ -8,7 +8,7 @@ function Header() {
   return (
     <div className="flex p-4  justify-center">
       <select
-        className="border rounded-lg p-4 bg-red-100 focus:outline-none hover:object-none  w-3/12  hover:outline-none text-lg "
+        className="border rounded-lg p-4 bg-red-100 focus:outline-none hover:object-none  w-3/12  hover:outline-none text-lg font-mono "
         onChange={(e) => dispatch(selectLang(e.target.value))}
       >
         <option className={optionsClass} value={"turkish"}>
