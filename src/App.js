@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Main />
       <Input />
-      {/* <Footer /> */}
+      /* <Footer /> */
     </div>
   );
 }
